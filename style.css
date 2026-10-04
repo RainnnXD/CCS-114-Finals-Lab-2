@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #aa7bf7de;
+  color: #3b0764;
+}
+
+.box {
+  background: #ffffff;
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 50px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+h1 {
+  color: #6d28d9;
+  margin-bottom: 10px;
+}
+
+button {
+  background: #6d28d9;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+button:hover {
+  background: #4c1d95;
+}
+
+.result {
+  background: #f5f3ff;
+  margin-top: 25px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+span {
+  font-weight: bold;
+}
+
+.congrats {
+  display: none;
+  margin-top: 25px;
+}
+
+.congrats h2 {
+  color: #6d28d9;
+  margin-bottom: 10px;
+}
+
+.congrats img {
+  width: 200px;
+  border-radius: 10px;
+}
